@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    width: 140px;
+    height: 180px;
+    box-shadow: 0px 0px 12px rgba(58, 159, 72, 0.5);
+    border: 1px solid rgba(58, 159, 72, 0.25);
+    font-family: Helvetica, sans-serif;
+    cursor: default;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgba(58, 159, 72, 0.3);
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 12px rgba(58, 159, 72, 0.75);
+    border: 1px solid rgba(58, 159, 72, 0.75);
+}
+
+.card .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.card img {
+    height: 110px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card .name {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card .interest {
+    font-size: 7px;
+    text-align: center;
+}
+
+.low {
+    box-shadow: 0px 0px 12px rgba(239	,48	,34, 0.5);
+    border: 1px solid rgba(239	,48	,34, 0.25);
+    background-color: rgba(239	,48	,34, 0.3);
+}
+
+.low:hover {
+    box-shadow: 0px 0px 12px rgba(239	,48	,34, 0.75);
+    border: 1px solid rgba(239	,48	,34, 0.75);
+}
+
+.middle {
+    box-shadow: 0px 0px 12px rgba(253	,202	,53, 0.5);
+    border: 1px solid rgba(253	,202	,53, 0.25);
+    background-color: rgba(253	,202	,53, 0.3);
+}
+
+.middle:hover {
+    box-shadow: 0px 0px 12px rgba(253	,202	,53, 0.75);
+    border: 1px solid rgba(253	,202	,53, 0.75);
+}
